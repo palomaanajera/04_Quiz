@@ -1,0 +1,60 @@
+
+
+.box{
+    background: #f8f8f8;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0.,0,0,0.23);
+}
+.answer-item{
+    background: #f8f8f8;
+    width: 90%;
+    display: d-md-inline-block;
+    border-radius:8px;
+    padding: 3px;
+}
+#btn-start{
+    border:none;
+	padding:6px 0 6px 0;
+	border-radius:8px;
+	background:#5f1ed6;
+    font:bold 40px;
+	color:#fff;
+}
+
+#code-title{
+    text-align: center;
+    font-weight: bold;
+}
+
+body,html{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  height: 100%;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #5f1ed6;
+    border-color: #5f1ed6;
+  }
+  
+  .btn-secondary:hover {
+    color: #5f1ed6;
+    background-color: #8a68ca;
+    border-color: #8a68ca;
+  }
+  
+  .btn-secondary:focus, .btn-secondary.focus {
+    box-shadow: 0 0 0 3px rgba(78, 22, 207, 0.5);
+  }
+  
+  .btn-secondary.disabled, .btn-secondary:disabled {
+    background-color: #8a68ca;
+    border-color: #8a68ca;
+  }
+  
+  .btn-secondary:active, .btn-secondary.active,
+  .show > .btn-secondary.dropdown-toggle {
+    background-color: #5f1ed6;
+    background-image: none;
+    border-color: #5f1ed6;
+  }
